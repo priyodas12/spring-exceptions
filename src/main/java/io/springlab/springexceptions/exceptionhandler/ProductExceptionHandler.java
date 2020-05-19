@@ -1,10 +1,9 @@
 package io.springlab.springexceptions.exceptionhandler;
 
 import io.springlab.springexceptions.controllerexception.InvalidFieldException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.*;
 
-@ControllerAdvice
+@RestControllerAdvice
 public class ProductExceptionHandler {
 
     @ExceptionHandler
