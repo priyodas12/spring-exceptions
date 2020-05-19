@@ -1,4 +1,4 @@
-package io.springlab.springexceptions.exception;
+package io.springlab.springexceptions.controllerexception;
 
 public class InvalidFieldException extends RuntimeException {
 

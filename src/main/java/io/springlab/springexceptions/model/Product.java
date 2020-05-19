@@ -12,7 +12,7 @@ public class Product implements Serializable {
     private double price;
     private String producer;
 
-    public Product(int id, String category, double price, String producer) {
+    protected Product(int id, String category, double price, String producer) {
         this.id = id;
         this.category = category;
         this.price = price;
